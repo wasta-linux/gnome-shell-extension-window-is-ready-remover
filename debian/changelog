@@ -1,0 +1,5 @@
+gnome-shell-extension-window-is-ready-remover (42) jammy; urgency=medium
+
+  * Initial release.
+
+ -- Nate Marti <nate_marti@sil.org>  Wed, 20 Apr 2022 21:16:18 +0100

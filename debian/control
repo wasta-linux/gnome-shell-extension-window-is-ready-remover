@@ -1,0 +1,25 @@
+Source: gnome-shell-extension-window-is-ready-remover
+Section: gnome
+Priority: optional
+Maintainer: Nate Marti <nate_marti@sil.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-gnome,
+# jq,
+ libglib2.0-bin,
+# meson,
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://github.com/wasta-linux/gnome-shell-extension-window-is-ready-remover
+
+Package: gnome-shell-extension-window-is-ready-remover
+Architecture: all
+Depends:
+ gnome-shell (>= 3.33),
+ gnome-shell (<< 43~),
+ ${shlibs:Depends},
+ ${misc:Depends}
+Suggests:
+ gnome-shell-extension-prefs,
+Description: windowIsReady_Remover support for GNOME Shell
+ This extension integrates windowIsReady_Remover into GNOME Shell.
