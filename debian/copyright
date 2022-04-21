@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: dash-to-panel
-Source: https://github.com/wasta-linux/gnome-shell-extension-dash-to-panel
+Upstream-Name: window-is-ready-remover
+Source: https://github.com/wasta-linux/gnome-shell-extension-window-is-ready-remover
 
 Files: *
 Copyright: 2022 <nunofarruca@gmail.com>
